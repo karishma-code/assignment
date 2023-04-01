@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625em; /* equivalent to 10px */
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 1em; /* equivalent to 16px */
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+.name,
+.email {
+  font-size: 1em; /* equivalent to 16px */
+  font-weight: bold;
+}
+
+.email {
+  color: gray;
+}
+
+.button {
+  padding: 0.625em 1.25em; /* equivalent to 10px 20px */
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 0.3125em; /* equivalent to 5px */
+  cursor: pointer;
+}
